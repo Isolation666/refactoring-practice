@@ -12,6 +12,8 @@ Each subdirectory contains some code that needs refactoring.
 
 Refactor timestamp.py.  2 or 3 refactorings are possible.
 
+- Rename method : Rename the function for suitable python style
+- Extract method : Extract the else condition into new function for Eliminate temp variable too
 
 ## `game_framework/gamelib.py`
 
