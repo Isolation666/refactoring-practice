@@ -21,7 +21,7 @@ def is_time_valid(hour, minute, second):
     bool - True if timestamp is valid, False if timestamp invalid
     """
 
-    return 0 <= int(hour[0]) <= 23 and 0 <= int(minute[1]) < 60 and 0 <= int(second[2]) < 60
+    return 0 <= int(hour) <= 23 and 0 <= int(minute) < 60 and 0 <= int(second) < 60
 
 
 def create_time_from_timestamp(timestamp: str) -> datetime.time:
